@@ -1,0 +1,24 @@
+slices:
+- sources:
+  - layer_range: [0, 20]
+    model: Qwen/Qwen2.5-72B-Instruct
+- sources:
+  - layer_range: [10, 30]
+    model: Qwen/Qwen2.5-72B-Instruct
+- sources:
+  - layer_range: [20, 40]
+    model: Qwen/Qwen2.5-72B-Instruct
+- sources:
+  - layer_range: [30, 50]
+    model: Qwen/Qwen2.5-72B-Instruct
+- sources:
+  - layer_range: [40, 60]
+    model: Qwen/Qwen2.5-72B-Instruct
+- sources:
+  - layer_range: [50, 70]
+    model: Qwen/Qwen2.5-72B-Instruct
+- sources:
+  - layer_range: [60, 80]
+    model: Qwen/Qwen2.5-72B-Instruct
+merge_method: passthrough
+dtype: bfloat16
